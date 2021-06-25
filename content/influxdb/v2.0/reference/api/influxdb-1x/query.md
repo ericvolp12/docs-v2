@@ -24,7 +24,7 @@ Use the `GET` request method to query data from the `/query` endpoint.
 <span class="api get">GET</span> http://localhost:8086/query
 </pre>
 
-The `/query` compatibility endpoint use the **database** and **retention policy**
+The `/query` compatibility endpoint uses the **database** and **retention policy**
 specified in the query request to map the request to an InfluxDB bucket.
 For more information, see [Database and retention policy mapping](/influxdb/v2.0/reference/api/influxdb-1x/dbrp).
 
@@ -46,9 +46,7 @@ _For more information, see [Authentication](/influxdb/v2.0/reference/api/influxd
 
 ## Query string parameters
 
-{{% note %}}
-**URL-encode** all query string parameters.
-{{% /note %}}
+{{% api/url-encode-note %}}
 
 ### u
 (Optional) The 1.x **username** to authenticate the request.
