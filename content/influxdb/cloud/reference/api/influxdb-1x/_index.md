@@ -21,9 +21,13 @@ like [Grafana](https://grafana.com) and others.
 <a class="btn" href="/influxdb/cloud/api/v1-compatibility/">View full v1 compatibility API documentation</a>
 
 ## Authentication
-InfluxDB Cloud all query and write requests to be authenticated using
+
+{{% cloud %}}
+InfluxDB Cloud requires all query and write requests to be authenticated using
 [InfluxDB authentication tokens](/influxdb/cloud/security/tokens/).
-Use the following authenication methods:
+{{% /cloud %}}
+
+Use the following authentication methods:
 
 - [Token authentication](#token-authentication)
 - [Basic authentication](#basic-authentication)
